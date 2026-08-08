@@ -1,0 +1,253 @@
+id,title,titleSlug,statusDisplay,lang,runtime,memory,timestamp,difficulty,topics,submission_date,is_accepted,is_failure,attempt_number,solved,days_since_previous_attempt
+1754461681,Two Sum,two-sum,Compile Error,java,,,1756623986,Easy,Array|Hash Table,2025-08-31 07:06:26,0,1,1,0,-1.0
+1754461837,Two Sum,two-sum,Compile Error,java,,,1756623997,Easy,Array|Hash Table,2025-08-31 07:06:37,0,1,2,0,0.0001273148148148148
+1754463712,Two Sum,two-sum,Compile Error,java,,,1756624117,Easy,Array|Hash Table,2025-08-31 07:08:37,0,1,3,0,0.001388888888888889
+1754464035,Two Sum,two-sum,Compile Error,java,,,1756624137,Easy,Array|Hash Table,2025-08-31 07:08:57,0,1,4,0,0.0002314814814814815
+1933666834,Two Sum,two-sum,Accepted,java,2 ms,47.1 MB,1772286864,Easy,Array|Hash Table,2026-02-28 13:54:24,1,0,5,1,181.2815625
+1933671360,Add Two Numbers,add-two-numbers,Accepted,java,1 ms,46.7 MB,1772287247,Medium,Linked List|Math|Recursion,2026-02-28 14:00:47,1,0,1,1,-1.0
+1933671897,Add Two Numbers,add-two-numbers,Accepted,java,1 ms,46.6 MB,1772287291,Medium,Linked List|Math|Recursion,2026-02-28 14:01:31,1,0,2,0,0.0005092592592592592
+1933673284,Longest Substring Without Repeating Characters,longest-substring-without-repeating-characters,Time Limit Exceeded,java,,,1772287413,Medium,Hash Table|String|Sliding Window,2026-02-28 14:03:33,0,1,1,0,-1.0
+1933674155,Longest Substring Without Repeating Characters,longest-substring-without-repeating-characters,Accepted,java,6 ms,46.8 MB,1772287486,Medium,Hash Table|String|Sliding Window,2026-02-28 14:04:46,1,0,2,1,0.0008449074074074074
+1933690121,Valid Parentheses,valid-parentheses,Wrong Answer,c,,,1772288760,Easy,String|Stack|Bracket Sequences,2026-02-28 14:26:00,0,1,1,0,-1.0
+1933690866,Valid Parentheses,valid-parentheses,Accepted,c,0 ms,9.5 MB,1772288822,Easy,String|Stack|Bracket Sequences,2026-02-28 14:27:02,1,0,2,1,0.0007175925925925926
+1933696405,Merge Two Sorted Lists,merge-two-sorted-lists,Accepted,java,0 ms,44.2 MB,1772289229,Easy,Linked List|Recursion,2026-02-28 14:33:49,1,0,1,1,-1.0
+1961469967,Range Sum Query - Immutable,range-sum-query-immutable,Accepted,java,7 ms,47.7 MB,1774677511,Easy,Array|Design|Prefix Sum,2026-03-28 05:58:31,1,0,1,1,-1.0
+1961470527,Range Sum Query - Immutable,range-sum-query-immutable,Accepted,java,7 ms,47.8 MB,1774677556,Easy,Array|Design|Prefix Sum,2026-03-28 05:59:16,1,0,2,0,0.0005208333333333333
+2030971077,Best Time to Buy and Sell Stock,best-time-to-buy-and-sell-stock,Accepted,java,1 ms,94.4 MB,1781279881,Easy,Array|Dynamic Programming,2026-06-12 15:58:01,1,0,1,1,-1.0
+2038520867,Two Sum,two-sum,Accepted,java,2 ms,47.5 MB,1781859451,Easy,Array|Hash Table,2026-06-19 08:57:31,1,0,6,0,110.79383101851852
+2038927938,Best Time to Buy and Sell Stock with Transaction Fee,best-time-to-buy-and-sell-stock-with-transaction-fee,Accepted,java,4 ms,65.3 MB,1781885333,Medium,Array|Dynamic Programming|Greedy,2026-06-19 16:08:53,1,0,1,1,-1.0
+2038928412,Best Time to Buy and Sell Stock with Transaction Fee,best-time-to-buy-and-sell-stock-with-transaction-fee,Accepted,java,4 ms,65.2 MB,1781885362,Medium,Array|Dynamic Programming|Greedy,2026-06-19 16:09:22,1,0,2,0,0.0003356481481481481
+2038934997,Best Time to Buy and Sell Stock with Transaction Fee,best-time-to-buy-and-sell-stock-with-transaction-fee,Accepted,java,4 ms,65.4 MB,1781885753,Medium,Array|Dynamic Programming|Greedy,2026-06-19 16:15:53,1,0,3,0,0.004525462962962963
+2038961214,Palindrome Number,palindrome-number,Accepted,java,4 ms,45.7 MB,1781887276,Easy,Math,2026-06-19 16:41:16,1,0,1,1,-1.0
+2038964773,Roman to Integer,roman-to-integer,Accepted,java,6 ms,46.4 MB,1781887473,Easy,Hash Table|Math|String,2026-06-19 16:44:33,1,0,1,1,-1.0
+2038967472,Longest Common Prefix,longest-common-prefix,Accepted,java,0 ms,43.2 MB,1781887631,Easy,Array|String|Trie,2026-06-19 16:47:11,1,0,1,1,-1.0
+2038968120,Longest Common Prefix,longest-common-prefix,Accepted,java,0 ms,43.3 MB,1781887671,Easy,Array|String|Trie,2026-06-19 16:47:51,1,0,2,0,0.000462962962962963
+2038969782,Remove Duplicates from Sorted Array,remove-duplicates-from-sorted-array,Accepted,java,1 ms,46.8 MB,1781887764,Easy,Array|Two Pointers,2026-06-19 16:49:24,1,0,1,1,-1.0
+2038970688,Remove Element,remove-element,Accepted,java,0 ms,43.4 MB,1781887816,Easy,Array|Two Pointers,2026-06-19 16:50:16,1,0,1,1,-1.0
+2038971644,Find the Index of the First Occurrence in a String,find-the-index-of-the-first-occurrence-in-a-string,Accepted,java,0 ms,42.9 MB,1781887869,Easy,Two Pointers|String|String Matching|Z Algorithm|Knuth–Morris–Pratt Algorithm|Boyer–Moore String-Search Algorithm,2026-06-19 16:51:09,1,0,1,1,-1.0
+2038973248,Divide Two Integers,divide-two-integers,Accepted,java,1 ms,42.6 MB,1781887959,Medium,Math|Bit Manipulation,2026-06-19 16:52:39,1,0,1,1,-1.0
+2038974538,Longest Valid Parentheses,longest-valid-parentheses,Accepted,java,5 ms,46.8 MB,1781888034,Hard,String|Dynamic Programming|Stack|Bracket Sequences,2026-06-19 16:53:54,1,0,1,1,-1.0
+2038977159,Integer to Roman,integer-to-roman,Accepted,java,3 ms,46.6 MB,1781888173,Medium,Hash Table|Math|String,2026-06-19 16:56:13,1,0,1,1,-1.0
+2038979048,Intersection of Two Linked Lists,intersection-of-two-linked-lists,Accepted,java,1 ms,52.8 MB,1781888282,Easy,Hash Table|Linked List|Two Pointers,2026-06-19 16:58:02,1,0,1,1,-1.0
+2038982065,Longest Palindrome,longest-palindrome,Accepted,java,6 ms,43.9 MB,1781888448,Easy,Hash Table|String|Greedy,2026-06-19 17:00:48,1,0,1,1,-1.0
+2038984898,Longest Palindromic Substring,longest-palindromic-substring,Accepted,java,18 ms,43.2 MB,1781888608,Medium,Two Pointers|String|Dynamic Programming|Manacher,2026-06-19 17:03:28,1,0,1,1,-1.0
+2038987155,Container With Most Water,container-with-most-water,Accepted,java,5 ms,77.5 MB,1781888739,Medium,Array|Two Pointers|Greedy,2026-06-19 17:05:39,1,0,1,1,-1.0
+2038988324,Find the Highest Altitude,find-the-highest-altitude,Accepted,java,0 ms,42.7 MB,1781888805,Easy,Array|Prefix Sum,2026-06-19 17:06:45,1,0,1,1,-1.0
+2038989312,Minimum Cost of Buying Candies With Discount,minimum-cost-of-buying-candies-with-discount,Accepted,java,6 ms,44.6 MB,1781888858,Easy,Array|Greedy|Sorting,2026-06-19 17:07:38,1,0,1,1,-1.0
+2038990796,Earliest Finish Time for Land and Water Rides I,earliest-finish-time-for-land-and-water-rides-i,Accepted,java,1 ms,46.8 MB,1781888941,Easy,Array|Two Pointers|Binary Search|Greedy|Sorting,2026-06-19 17:09:01,1,0,1,1,-1.0
+2038991791,Total Waviness of Numbers in Range I,total-waviness-of-numbers-in-range-i,Accepted,java,26 ms,46.4 MB,1781888997,Medium,Math|Dynamic Programming|Enumeration,2026-06-19 17:09:57,1,0,1,1,-1.0
+2039028148,3Sum,3sum,Accepted,java,37 ms,59 MB,1781891003,Medium,Array|Two Pointers|Sorting,2026-06-19 17:43:23,1,0,1,1,-1.0
+2039029480,3Sum Closest,3sum-closest,Accepted,java,17 ms,45.9 MB,1781891076,Medium,Array|Two Pointers|Sorting,2026-06-19 17:44:36,1,0,1,1,-1.0
+2039030649,Remove Nth Node From End of List,remove-nth-node-from-end-of-list,Accepted,java,0 ms,43.4 MB,1781891140,Medium,Linked List|Two Pointers,2026-06-19 17:45:40,1,0,1,1,-1.0
+2039031871,Generate Parentheses,generate-parentheses,Accepted,java,2 ms,44.8 MB,1781891208,Medium,String|Dynamic Programming|Backtracking|Bracket Sequences,2026-06-19 17:46:48,1,0,1,1,-1.0
+2039033581,Sqrt(x),sqrtx,Accepted,java,1 ms,42.7 MB,1781891302,Easy,Math|Binary Search|Newton's Method,2026-06-19 17:48:22,1,0,1,1,-1.0
+2039036447,Contains Duplicate,contains-duplicate,Accepted,java,14 ms,93.2 MB,1781891456,Easy,Array|Hash Table|Sorting,2026-06-19 17:50:56,1,0,1,1,-1.0
+2039037709,Valid Anagram,valid-anagram,Accepted,java,6 ms,44.1 MB,1781891528,Easy,Hash Table|String|Sorting,2026-06-19 17:52:08,1,0,1,1,-1.0
+2039041526,Subarray Sum Equals K,subarray-sum-equals-k,Accepted,java,23 ms,48.9 MB,1781891741,Medium,Array|Hash Table|Prefix Sum,2026-06-19 17:55:41,1,0,1,1,-1.0
+2039042426,Product of Array Except Self,product-of-array-except-self,Accepted,java,2 ms,64.9 MB,1781891789,Medium,Array|Prefix Sum,2026-06-19 17:56:29,1,0,1,1,-1.0
+2039043808,Binary Tree Inorder Traversal,binary-tree-inorder-traversal,Accepted,java,0 ms,43.1 MB,1781891863,Easy,Stack|Tree|Depth-First Search|Binary Tree,2026-06-19 17:57:43,1,0,1,1,-1.0
+2039044762,Binary Tree Level Order Traversal,binary-tree-level-order-traversal,Accepted,java,1 ms,47 MB,1781891914,Medium,Tree|Breadth-First Search|Binary Tree,2026-06-19 17:58:34,1,0,1,1,-1.0
+2039045664,Binary Tree Postorder Traversal,binary-tree-postorder-traversal,Accepted,java,1 ms,43.4 MB,1781891962,Easy,Stack|Tree|Depth-First Search|Binary Tree,2026-06-19 17:59:22,1,0,1,1,-1.0
+2039046693,Binary Tree Maximum Path Sum,binary-tree-maximum-path-sum,Accepted,java,0 ms,46.5 MB,1781892018,Hard,Dynamic Programming|Tree|Depth-First Search|Binary Tree|DP on Trees,2026-06-19 18:00:18,1,0,1,1,-1.0
+2039047837,Serialize and Deserialize Binary Tree,serialize-and-deserialize-binary-tree,Accepted,java,15 ms,48.1 MB,1781892079,Hard,String|Tree|Depth-First Search|Breadth-First Search|Design|Binary Tree,2026-06-19 18:01:19,1,0,1,1,-1.0
+2039049021,Validate Binary Search Tree,validate-binary-search-tree,Accepted,java,0 ms,45.2 MB,1781892145,Medium,Tree|Depth-First Search|Binary Search Tree|Binary Tree,2026-06-19 18:02:25,1,0,1,1,-1.0
+2039050265,Lowest Common Ancestor of a Binary Search Tree,lowest-common-ancestor-of-a-binary-search-tree,Accepted,java,6 ms,47.1 MB,1781892214,Medium,Tree|Depth-First Search|Binary Search Tree|Binary Tree|Binary Lifting|Lowest Common Ancestor,2026-06-19 18:03:34,1,0,1,1,-1.0
+2039051181,Lowest Common Ancestor of a Binary Tree,lowest-common-ancestor-of-a-binary-tree,Wrong Answer,java,,,1781892262,Medium,Tree|Depth-First Search|Binary Tree|Binary Lifting|Lowest Common Ancestor,2026-06-19 18:04:22,0,1,1,0,-1.0
+2039051900,Lowest Common Ancestor of a Binary Tree,lowest-common-ancestor-of-a-binary-tree,Accepted,java,16 ms,69.3 MB,1781892304,Medium,Tree|Depth-First Search|Binary Tree|Binary Lifting|Lowest Common Ancestor,2026-06-19 18:05:04,1,0,2,1,0.0004861111111111111
+2039052901,Kth Smallest Element in a BST,kth-smallest-element-in-a-bst,Accepted,java,0 ms,46.9 MB,1781892358,Medium,Tree|Depth-First Search|Binary Search Tree|Binary Tree,2026-06-19 18:05:58,1,0,1,1,-1.0
+2039055241,LRU Cache,lru-cache,Accepted,java,51 ms,129.8 MB,1781892490,Medium,Hash Table|Linked List|Design|Doubly-Linked List,2026-06-19 18:08:10,1,0,1,1,-1.0
+2039056155,Reverse Linked List,reverse-linked-list,Accepted,java,0 ms,44.3 MB,1781892543,Easy,Linked List|Recursion,2026-06-19 18:09:03,1,0,1,1,-1.0
+2039057808,Linked List Cycle,linked-list-cycle,Accepted,java,0 ms,46.6 MB,1781892635,Easy,Hash Table|Linked List|Two Pointers|Floyd's Cycle Finding Algorithm,2026-06-19 18:10:35,1,0,1,1,-1.0
+2039058703,Min Stack,min-stack,Accepted,java,37 ms,99.9 MB,1781892686,Medium,Stack|Design,2026-06-19 18:11:26,1,0,1,1,-1.0
+2039059576,Daily Temperatures,daily-temperatures,Accepted,java,60 ms,107.7 MB,1781892734,Medium,Array|Stack|Monotonic Stack,2026-06-19 18:12:14,1,0,1,1,-1.0
+2039075513,Climbing Stairs,climbing-stairs,Accepted,java,0 ms,42 MB,1781893651,Easy,Math|Dynamic Programming|Memoization,2026-06-19 18:27:31,1,0,1,1,-1.0
+2039076209,Maximum Subarray,maximum-subarray,Accepted,java,1 ms,77.2 MB,1781893693,Medium,Array|Divide and Conquer|Dynamic Programming,2026-06-19 18:28:13,1,0,1,1,-1.0
+2041300334,Jump Game,jump-game,Accepted,java,2 ms,47.9 MB,1782065624,Medium,Array|Dynamic Programming|Greedy,2026-06-21 18:13:44,1,0,1,1,-1.0
+2041300500,Jump Game,jump-game,Accepted,java,2 ms,47.6 MB,1782065634,Medium,Array|Dynamic Programming|Greedy,2026-06-21 18:13:54,1,0,2,0,0.00011574074074074075
+2042541010,Valid Number,valid-number,Accepted,java,1 ms,44.1 MB,1782151988,Hard,String,2026-06-22 18:13:08,1,0,1,1,-1.0
+2042547111,String to Integer (atoi),string-to-integer-atoi,Accepted,java,1 ms,44 MB,1782152288,Medium,String,2026-06-22 18:18:08,1,0,1,1,-1.0
+2043722684,Recover Binary Search Tree,recover-binary-search-tree,Accepted,java,1 ms,46.4 MB,1782236720,Medium,Tree|Depth-First Search|Binary Search Tree|Binary Tree,2026-06-23 17:45:20,1,0,1,1,-1.0
+2044929361,Median of Two Sorted Arrays,median-of-two-sorted-arrays,Accepted,java,1 ms,48.9 MB,1782323185,Hard,Array|Binary Search|Divide and Conquer,2026-06-24 17:46:25,1,0,1,1,-1.0
+2044930633,Number of ZigZag Arrays II,number-of-zigzag-arrays-ii,Accepted,java,459 ms,47 MB,1782323243,Hard,Math|Dynamic Programming,2026-06-24 17:47:23,1,0,1,1,-1.0
+2046086345,Count Subarrays With Majority Element I,count-subarrays-with-majority-element-i,Accepted,java,34 ms,46.7 MB,1782410100,Medium,Array|Hash Table|Divide and Conquer|Segment Tree|Merge Sort|Counting|Prefix Sum,2026-06-25 17:55:00,1,0,1,1,-1.0
+2046086624,Count Subarrays With Majority Element I,count-subarrays-with-majority-element-i,Accepted,java,35 ms,46.9 MB,1782410113,Medium,Array|Hash Table|Divide and Conquer|Segment Tree|Merge Sort|Counting|Prefix Sum,2026-06-25 17:55:13,1,0,2,0,0.00015046296296296297
+2046086939,Count Subarrays With Majority Element I,count-subarrays-with-majority-element-i,Accepted,java,34 ms,47.1 MB,1782410128,Medium,Array|Hash Table|Divide and Conquer|Segment Tree|Merge Sort|Counting|Prefix Sum,2026-06-25 17:55:28,1,0,3,0,0.00017361111111111112
+2047133707,Count Subarrays With Majority Element II,count-subarrays-with-majority-element-ii,Accepted,java,14 ms,87.9 MB,1782497707,Hard,Array|Hash Table|Divide and Conquer|Segment Tree|Merge Sort|Prefix Sum,2026-06-26 18:15:07,1,0,1,1,-1.0
+2047135942,Reverse Integer,reverse-integer,Accepted,java,1 ms,42.4 MB,1782497834,Medium,Math,2026-06-26 18:17:14,1,0,1,1,-1.0
+2047136288,Reverse Integer,reverse-integer,Accepted,java,1 ms,42.6 MB,1782497852,Medium,Math,2026-06-26 18:17:32,1,0,2,0,0.00020833333333333335
+2048146631,Find the Maximum Number of Elements in Subset,find-the-maximum-number-of-elements-in-subset,Accepted,java,52 ms,70.8 MB,1782583849,Medium,Array|Hash Table|Enumeration,2026-06-27 18:10:49,1,0,1,1,-1.0
+2049248848,Maximum Element After Decreasing and Rearranging,maximum-element-after-decreasing-and-rearranging,Accepted,java,9 ms,77.8 MB,1782670422,Medium,Array|Greedy|Sorting,2026-06-28 18:13:42,1,0,1,1,-1.0
+2049249006,Maximum Element After Decreasing and Rearranging,maximum-element-after-decreasing-and-rearranging,Accepted,java,10 ms,77.4 MB,1782670432,Medium,Array|Greedy|Sorting,2026-06-28 18:13:52,1,0,2,0,0.00011574074074074075
+2050350139,Number of Strings That Appear as Substrings in Word,number-of-strings-that-appear-as-substrings-in-word,Accepted,java,1 ms,43.5 MB,1782753598,Easy,Array|String,2026-06-29 17:19:58,1,0,1,1,-1.0
+2050350396,Number of Strings That Appear as Substrings in Word,number-of-strings-that-appear-as-substrings-in-word,Accepted,java,1 ms,43.4 MB,1782753610,Easy,Array|String,2026-06-29 17:20:10,1,0,2,0,0.0001388888888888889
+2050350561,Number of Strings That Appear as Substrings in Word,number-of-strings-that-appear-as-substrings-in-word,Accepted,java,1 ms,43.2 MB,1782753620,Easy,Array|String,2026-06-29 17:20:20,1,0,3,0,0.00011574074074074075
+2051557394,Number of Substrings Containing All Three Characters,number-of-substrings-containing-all-three-characters,Accepted,java,17 ms,46 MB,1782842998,Medium,Hash Table|String|Sliding Window,2026-06-30 18:09:58,1,0,1,1,-1.0
+2051557569,Number of Substrings Containing All Three Characters,number-of-substrings-containing-all-three-characters,Accepted,java,17 ms,46.6 MB,1782843008,Medium,Hash Table|String|Sliding Window,2026-06-30 18:10:08,1,0,2,0,0.00011574074074074075
+2052707345,Find the Safest Path in a Grid,find-the-safest-path-in-a-grid,Accepted,java,217 ms,120 MB,1782929723,Medium,Array|Binary Search|Breadth-First Search|Union-Find|Heap (Priority Queue)|Matrix,2026-07-01 18:15:23,1,0,1,1,-1.0
+2052707663,Find the Safest Path in a Grid,find-the-safest-path-in-a-grid,Accepted,java,214 ms,119.9 MB,1782929738,Medium,Array|Binary Search|Breadth-First Search|Union-Find|Heap (Priority Queue)|Matrix,2026-07-01 18:15:38,1,0,2,0,0.00017361111111111112
+2053869858,Find a Safe Walk Through a Grid,find-a-safe-walk-through-a-grid,Accepted,java,13 ms,46.9 MB,1783015454,Medium,Array|Breadth-First Search|Graph Theory|Heap (Priority Queue)|Matrix|Shortest Path,2026-07-02 18:04:14,1,0,1,1,-1.0
+2053870022,Find a Safe Walk Through a Grid,find-a-safe-walk-through-a-grid,Accepted,java,13 ms,47.1 MB,1783015463,Medium,Array|Breadth-First Search|Graph Theory|Heap (Priority Queue)|Matrix|Shortest Path,2026-07-02 18:04:23,1,0,2,0,0.00010416666666666667
+2053870332,Find a Safe Walk Through a Grid,find-a-safe-walk-through-a-grid,Accepted,java,13 ms,47.1 MB,1783015477,Medium,Array|Breadth-First Search|Graph Theory|Heap (Priority Queue)|Matrix|Shortest Path,2026-07-02 18:04:37,1,0,3,0,0.00016203703703703703
+2053870547,Find a Safe Walk Through a Grid,find-a-safe-walk-through-a-grid,Accepted,java,13 ms,47.1 MB,1783015486,Medium,Array|Breadth-First Search|Graph Theory|Heap (Priority Queue)|Matrix|Shortest Path,2026-07-02 18:04:46,1,0,4,0,0.00010416666666666667
+2053870718,Find a Safe Walk Through a Grid,find-a-safe-walk-through-a-grid,Accepted,java,13 ms,47 MB,1783015495,Medium,Array|Breadth-First Search|Graph Theory|Heap (Priority Queue)|Matrix|Shortest Path,2026-07-02 18:04:55,1,0,5,0,0.00010416666666666667
+2054983547,Network Recovery Pathways,network-recovery-pathways,Accepted,java,149 ms,172.4 MB,1783101988,Hard,Array|Binary Search|Dynamic Programming|Graph Theory|Topological Sort|Heap (Priority Queue)|Shortest Path,2026-07-03 18:06:28,1,0,1,1,-1.0
+2054983712,Network Recovery Pathways,network-recovery-pathways,Accepted,java,152 ms,172.3 MB,1783101998,Hard,Array|Binary Search|Dynamic Programming|Graph Theory|Topological Sort|Heap (Priority Queue)|Shortest Path,2026-07-03 18:06:38,1,0,2,0,0.00011574074074074075
+2054984113,Network Recovery Pathways,network-recovery-pathways,Accepted,java,153 ms,165.7 MB,1783102020,Hard,Array|Binary Search|Dynamic Programming|Graph Theory|Topological Sort|Heap (Priority Queue)|Shortest Path,2026-07-03 18:07:00,1,0,3,0,0.0002546296296296296
+2054984319,Network Recovery Pathways,network-recovery-pathways,Accepted,java,172 ms,172.5 MB,1783102032,Hard,Array|Binary Search|Dynamic Programming|Graph Theory|Topological Sort|Heap (Priority Queue)|Shortest Path,2026-07-03 18:07:12,1,0,4,0,0.0001388888888888889
+2057241796,Number of Paths with Max Score,number-of-paths-with-max-score,Accepted,java,14 ms,47.2 MB,1783275609,Hard,Array|Dynamic Programming|Matrix,2026-07-05 18:20:09,1,0,1,1,-1.0
+2057242109,Number of Paths with Max Score,number-of-paths-with-max-score,Accepted,java,12 ms,46.5 MB,1783275623,Hard,Array|Dynamic Programming|Matrix,2026-07-05 18:20:23,1,0,2,0,0.00016203703703703703
+2057242261,Number of Paths with Max Score,number-of-paths-with-max-score,Accepted,java,12 ms,47 MB,1783275632,Hard,Array|Dynamic Programming|Matrix,2026-07-05 18:20:32,1,0,3,0,0.00010416666666666667
+2058422348,Remove Covered Intervals,remove-covered-intervals,Accepted,java,6 ms,46.4 MB,1783361470,Medium,Array|Sorting,2026-07-06 18:11:10,1,0,1,1,-1.0
+2058422559,Remove Covered Intervals,remove-covered-intervals,Accepted,java,6 ms,46.3 MB,1783361480,Medium,Array|Sorting,2026-07-06 18:11:20,1,0,2,0,0.00011574074074074075
+2058422768,Remove Covered Intervals,remove-covered-intervals,Accepted,java,6 ms,46.5 MB,1783361488,Medium,Array|Sorting,2026-07-06 18:11:28,1,0,3,0,9.259259259259259e-05
+2059672139,Concatenate Non-Zero Digits and Multiply by Sum I,concatenate-non-zero-digits-and-multiply-by-sum-i,Compile Error,java,,,1783448009,Easy,Math,2026-07-07 18:13:29,0,1,1,0,-1.0
+2059673672,Concatenate Non-Zero Digits and Multiply by Sum I,concatenate-non-zero-digits-and-multiply-by-sum-i,Accepted,java,1 ms,42.3 MB,1783448090,Easy,Math,2026-07-07 18:14:50,1,0,2,1,0.0009375
+2059673805,Concatenate Non-Zero Digits and Multiply by Sum I,concatenate-non-zero-digits-and-multiply-by-sum-i,Accepted,java,1 ms,42.6 MB,1783448097,Easy,Math,2026-07-07 18:14:57,1,0,3,0,8.101851851851852e-05
+2059673921,Concatenate Non-Zero Digits and Multiply by Sum I,concatenate-non-zero-digits-and-multiply-by-sum-i,Accepted,java,1 ms,42.8 MB,1783448103,Easy,Math,2026-07-07 18:15:03,1,0,4,0,6.944444444444444e-05
+2060921560,Concatenate Non-Zero Digits and Multiply by Sum II,concatenate-non-zero-digits-and-multiply-by-sum-ii,Accepted,java,38 ms,125.7 MB,1783535356,Medium,Math|String|Prefix Sum,2026-07-08 18:29:16,1,0,1,1,-1.0
+2060922406,Concatenate Non-Zero Digits and Multiply by Sum II,concatenate-non-zero-digits-and-multiply-by-sum-ii,Compile Error,cpp,,,1783535395,Medium,Math|String|Prefix Sum,2026-07-08 18:29:55,0,1,2,0,0.00045138888888888887
+2060922638,Concatenate Non-Zero Digits and Multiply by Sum II,concatenate-non-zero-digits-and-multiply-by-sum-ii,Compile Error,cpp,,,1783535405,Medium,Math|String|Prefix Sum,2026-07-08 18:30:05,0,1,3,0,0.00011574074074074075
+2062106353,Path Existence Queries in a Graph I,path-existence-queries-in-a-graph-i,Compile Error,cpp,,,1783621094,Medium,Array|Hash Table|Binary Search|Union-Find|Graph Theory,2026-07-09 18:18:14,0,1,1,0,-1.0
+2062111573,Path Existence Queries in a Graph I,path-existence-queries-in-a-graph-i,Accepted,java,3 ms,162.9 MB,1783621341,Medium,Array|Hash Table|Binary Search|Union-Find|Graph Theory,2026-07-09 18:22:21,1,0,2,1,0.0028587962962962963
+2063183772,Path Existence Queries in a Graph II,path-existence-queries-in-a-graph-ii,Accepted,java,126 ms,281.8 MB,1783706693,Hard,Array|Two Pointers|Binary Search|Dynamic Programming|Greedy|Bit Manipulation|Graph Theory|Sorting,2026-07-10 18:04:53,1,0,1,1,-1.0
+2063184299,Path Existence Queries in a Graph II,path-existence-queries-in-a-graph-ii,Accepted,java,125 ms,281.6 MB,1783706719,Hard,Array|Two Pointers|Binary Search|Dynamic Programming|Greedy|Bit Manipulation|Graph Theory|Sorting,2026-07-10 18:05:19,1,0,2,0,0.00030092592592592595
+2064174360,Count the Number of Complete Components,count-the-number-of-complete-components,Accepted,java,11 ms,47.4 MB,1783793288,Medium,Depth-First Search|Breadth-First Search|Union-Find|Graph Theory,2026-07-11 18:08:08,1,0,1,1,-1.0
+2064174513,Count the Number of Complete Components,count-the-number-of-complete-components,Accepted,java,12 ms,47.8 MB,1783793297,Medium,Depth-First Search|Breadth-First Search|Union-Find|Graph Theory,2026-07-11 18:08:17,1,0,2,0,0.00010416666666666667
+2064174660,Count the Number of Complete Components,count-the-number-of-complete-components,Accepted,java,12 ms,47.9 MB,1783793304,Medium,Depth-First Search|Breadth-First Search|Union-Find|Graph Theory,2026-07-11 18:08:24,1,0,3,0,8.101851851851852e-05
+2065347850,Rank Transform of an Array,rank-transform-of-an-array,Accepted,java,28 ms,76.9 MB,1783881010,Easy,Array|Hash Table|Sorting,2026-07-12 18:30:10,1,0,1,1,-1.0
+2066537875,Sequential Digits,sequential-digits,Accepted,java,0 ms,42.7 MB,1783966946,Medium,Enumeration,2026-07-13 18:22:26,1,0,1,1,-1.0
+2066538137,Sequential Digits,sequential-digits,Accepted,java,0 ms,42.4 MB,1783966958,Medium,Enumeration,2026-07-13 18:22:38,1,0,2,0,0.0001388888888888889
+2066538710,Sequential Digits,sequential-digits,Accepted,java,1 ms,42.3 MB,1783966982,Medium,Enumeration,2026-07-13 18:23:02,1,0,3,0,0.0002777777777777778
+2066539861,Sequential Digits,sequential-digits,Accepted,java,0 ms,42.2 MB,1783967035,Medium,Enumeration,2026-07-13 18:23:55,1,0,4,0,0.0006134259259259259
+2067718655,Find the Number of Subsequences With Equal GCD,find-the-number-of-subsequences-with-equal-gcd,Accepted,java,198 ms,47.3 MB,1784051261,Hard,Array|Math|Dynamic Programming|Number Theory|Euclidean Algorithm|Greatest Common Divisor,2026-07-14 17:47:41,1,0,1,1,-1.0
+2067722615,Find the Number of Subsequences With Equal GCD,find-the-number-of-subsequences-with-equal-gcd,Accepted,java,204 ms,47.1 MB,1784051432,Hard,Array|Math|Dynamic Programming|Number Theory|Euclidean Algorithm|Greatest Common Divisor,2026-07-14 17:50:32,1,0,2,0,0.001979166666666667
+2067723830,Find the Number of Subsequences With Equal GCD,find-the-number-of-subsequences-with-equal-gcd,Accepted,java,199 ms,47.3 MB,1784051486,Hard,Array|Math|Dynamic Programming|Number Theory|Euclidean Algorithm|Greatest Common Divisor,2026-07-14 17:51:26,1,0,3,0,0.000625
+2068671022,Two Sum,two-sum,Accepted,java,6 ms,46.7 MB,1784123238,Easy,Array|Hash Table,2026-07-15 13:47:18,1,0,7,0,26.201238425925926
+2068673267,Two Sum,two-sum,Accepted,java,3 ms,47.3 MB,1784123355,Easy,Array|Hash Table,2026-07-15 13:49:15,1,0,8,0,0.0013541666666666667
+2068675891,Two Sum,two-sum,Accepted,java,2 ms,47.1 MB,1784123496,Easy,Array|Hash Table,2026-07-15 13:51:36,1,0,9,0,0.0016319444444444445
+2068692556,Best Time to Buy and Sell Stock,best-time-to-buy-and-sell-stock,Wrong Answer,java,,,1784124391,Easy,Array|Dynamic Programming,2026-07-15 14:06:31,0,1,2,0,32.92256944444444
+2068694496,Best Time to Buy and Sell Stock,best-time-to-buy-and-sell-stock,Wrong Answer,java,,,1784124496,Easy,Array|Dynamic Programming,2026-07-15 14:08:16,0,1,3,0,0.0012152777777777778
+2068696586,Best Time to Buy and Sell Stock,best-time-to-buy-and-sell-stock,Wrong Answer,java,,,1784124607,Easy,Array|Dynamic Programming,2026-07-15 14:10:07,0,1,4,0,0.0012847222222222223
+2068702379,Best Time to Buy and Sell Stock,best-time-to-buy-and-sell-stock,Accepted,java,3 ms,94.7 MB,1784124910,Easy,Array|Dynamic Programming,2026-07-15 14:15:10,1,0,5,0,0.0035069444444444445
+2068718353,Maximum Subarray,maximum-subarray,Wrong Answer,java,,,1784125738,Medium,Array|Divide and Conquer|Dynamic Programming,2026-07-15 14:28:58,0,1,2,0,25.833854166666665
+2068747147,Maximum Subarray,maximum-subarray,Accepted,java,1 ms,77 MB,1784127259,Medium,Array|Divide and Conquer|Dynamic Programming,2026-07-15 14:54:19,1,0,3,0,0.017604166666666667
+2068769895,Majority Element,majority-element,Wrong Answer,java,,,1784128483,Easy,Array|Hash Table|Divide and Conquer|Sorting|Counting|Boyer–Moore Majority Vote Algorithm,2026-07-15 15:14:43,0,1,1,0,-1.0
+2068771458,Majority Element,majority-element,Runtime Error,java,,,1784128568,Easy,Array|Hash Table|Divide and Conquer|Sorting|Counting|Boyer–Moore Majority Vote Algorithm,2026-07-15 15:16:08,0,1,2,0,0.0009837962962962962
+2068771702,Majority Element,majority-element,Wrong Answer,java,,,1784128581,Easy,Array|Hash Table|Divide and Conquer|Sorting|Counting|Boyer–Moore Majority Vote Algorithm,2026-07-15 15:16:21,0,1,3,0,0.00015046296296296297
+2068792162,Majority Element,majority-element,Accepted,java,19 ms,52.2 MB,1784129649,Easy,Array|Hash Table|Divide and Conquer|Sorting|Counting|Boyer–Moore Majority Vote Algorithm,2026-07-15 15:34:09,1,0,4,1,0.012361111111111111
+2068979228,GCD of Odd and Even Sums,gcd-of-odd-and-even-sums,Accepted,java,1 ms,42.6 MB,1784137909,Easy,Math|Number Theory,2026-07-15 17:51:49,1,0,1,1,-1.0
+2070277125,Sum of GCD of Formed Pairs,sum-of-gcd-of-formed-pairs,Accepted,java,57 ms,107.2 MB,1784225297,Medium,Array|Math|Two Pointers|Sorting|Simulation|Number Theory,2026-07-16 18:08:17,1,0,1,1,-1.0
+2070277326,Sum of GCD of Formed Pairs,sum-of-gcd-of-formed-pairs,Accepted,java,56 ms,107.7 MB,1784225307,Medium,Array|Math|Two Pointers|Sorting|Simulation|Number Theory,2026-07-16 18:08:27,1,0,2,0,0.00011574074074074075
+2070885770,Two Sum,two-sum,Accepted,java,2 ms,47.1 MB,1784278180,Easy,Array|Hash Table,2026-07-17 08:49:40,1,0,10,0,1.790324074074074
+2071440436,Sorted GCD Pair Queries,sorted-gcd-pair-queries,Accepted,java,29 ms,102.5 MB,1784310849,Hard,Array|Hash Table|Math|Binary Search|Combinatorics|Counting|Number Theory|Prefix Sum|Euclidean Algorithm|Greatest Common Divisor,2026-07-17 17:54:09,1,0,1,1,-1.0
+2071893100,3Sum,3sum,Wrong Answer,java,,,1784357816,Medium,Array|Two Pointers|Sorting,2026-07-18 06:56:56,0,1,2,0,28.551076388888887
+2071896782,3Sum,3sum,Wrong Answer,java,,,1784358031,Medium,Array|Two Pointers|Sorting,2026-07-18 07:00:31,0,1,3,0,0.002488425925925926
+2071897235,3Sum,3sum,Wrong Answer,java,,,1784358057,Medium,Array|Two Pointers|Sorting,2026-07-18 07:00:57,0,1,4,0,0.00030092592592592595
+2071898178,3Sum,3sum,Wrong Answer,java,,,1784358113,Medium,Array|Two Pointers|Sorting,2026-07-18 07:01:53,0,1,5,0,0.0006481481481481481
+2071918602,3Sum,3sum,Wrong Answer,java,,,1784359388,Medium,Array|Two Pointers|Sorting,2026-07-18 07:23:08,0,1,6,0,0.014756944444444444
+2071919888,3Sum,3sum,Wrong Answer,java,,,1784359470,Medium,Array|Two Pointers|Sorting,2026-07-18 07:24:30,0,1,7,0,0.0009490740740740741
+2071921425,3Sum,3sum,Wrong Answer,java,,,1784359563,Medium,Array|Two Pointers|Sorting,2026-07-18 07:26:03,0,1,8,0,0.0010763888888888889
+2071921811,3Sum,3sum,Time Limit Exceeded,java,,,1784359589,Medium,Array|Two Pointers|Sorting,2026-07-18 07:26:29,0,1,9,0,0.00030092592592592595
+2071922084,3Sum,3sum,Wrong Answer,java,,,1784359607,Medium,Array|Two Pointers|Sorting,2026-07-18 07:26:47,0,1,10,0,0.00020833333333333335
+2071923007,3Sum,3sum,Wrong Answer,java,,,1784359665,Medium,Array|Two Pointers|Sorting,2026-07-18 07:27:45,0,1,11,0,0.0006712962962962962
+2071923183,3Sum,3sum,Wrong Answer,java,,,1784359675,Medium,Array|Two Pointers|Sorting,2026-07-18 07:27:55,0,1,12,0,0.00011574074074074075
+2071923322,3Sum,3sum,Memory Limit Exceeded,java,,,1784359684,Medium,Array|Two Pointers|Sorting,2026-07-18 07:28:04,0,1,13,0,0.00010416666666666667
+2071924299,3Sum,3sum,Compile Error,java,,,1784359747,Medium,Array|Two Pointers|Sorting,2026-07-18 07:29:07,0,1,14,0,0.0007291666666666667
+2071924645,3Sum,3sum,Wrong Answer,java,,,1784359770,Medium,Array|Two Pointers|Sorting,2026-07-18 07:29:30,0,1,15,0,0.0002662037037037037
+2071926112,3Sum,3sum,Wrong Answer,java,,,1784359867,Medium,Array|Two Pointers|Sorting,2026-07-18 07:31:07,0,1,16,0,0.0011226851851851851
+2071927983,3Sum,3sum,Wrong Answer,java,,,1784359996,Medium,Array|Two Pointers|Sorting,2026-07-18 07:33:16,0,1,17,0,0.0014930555555555556
+2071947057,3Sum,3sum,Wrong Answer,java,,,1784361315,Medium,Array|Two Pointers|Sorting,2026-07-18 07:55:15,0,1,18,0,0.015266203703703704
+2071947405,3Sum,3sum,Memory Limit Exceeded,java,,,1784361338,Medium,Array|Two Pointers|Sorting,2026-07-18 07:55:38,0,1,19,0,0.0002662037037037037
+2071947610,3Sum,3sum,Wrong Answer,java,,,1784361354,Medium,Array|Two Pointers|Sorting,2026-07-18 07:55:54,0,1,20,0,0.00018518518518518518
+2071947803,3Sum,3sum,Wrong Answer,java,,,1784361367,Medium,Array|Two Pointers|Sorting,2026-07-18 07:56:07,0,1,21,0,0.00015046296296296297
+2071948535,3Sum,3sum,Memory Limit Exceeded,java,,,1784361415,Medium,Array|Two Pointers|Sorting,2026-07-18 07:56:55,0,1,22,0,0.0005555555555555556
+2071949669,3Sum,3sum,Wrong Answer,java,,,1784361491,Medium,Array|Two Pointers|Sorting,2026-07-18 07:58:11,0,1,23,0,0.0008796296296296296
+2071950395,3Sum,3sum,Wrong Answer,java,,,1784361542,Medium,Array|Two Pointers|Sorting,2026-07-18 07:59:02,0,1,24,0,0.0005902777777777778
+2071950590,3Sum,3sum,Wrong Answer,java,,,1784361553,Medium,Array|Two Pointers|Sorting,2026-07-18 07:59:13,0,1,25,0,0.0001273148148148148
+2071952276,3Sum,3sum,Time Limit Exceeded,java,,,1784361660,Medium,Array|Two Pointers|Sorting,2026-07-18 08:01:00,0,1,26,0,0.001238425925925926
+2071969869,Find Greatest Common Divisor of Array,find-greatest-common-divisor-of-array,Compile Error,java,,,1784362828,Easy,Array|Math|Number Theory|Euclidean Algorithm|Greatest Common Divisor,2026-07-18 08:20:28,0,1,1,0,-1.0
+2071970028,Find Greatest Common Divisor of Array,find-greatest-common-divisor-of-array,Compile Error,java,,,1784362838,Easy,Array|Math|Number Theory|Euclidean Algorithm|Greatest Common Divisor,2026-07-18 08:20:38,0,1,2,0,0.00011574074074074075
+2071971947,Find Greatest Common Divisor of Array,find-greatest-common-divisor-of-array,Compile Error,java,,,1784362970,Easy,Array|Math|Number Theory|Euclidean Algorithm|Greatest Common Divisor,2026-07-18 08:22:50,0,1,3,0,0.0015277777777777779
+2071972520,Find Greatest Common Divisor of Array,find-greatest-common-divisor-of-array,Wrong Answer,java,,,1784363007,Easy,Array|Math|Number Theory|Euclidean Algorithm|Greatest Common Divisor,2026-07-18 08:23:27,0,1,4,0,0.00042824074074074075
+2071973434,Find Greatest Common Divisor of Array,find-greatest-common-divisor-of-array,Wrong Answer,java,,,1784363065,Easy,Array|Math|Number Theory|Euclidean Algorithm|Greatest Common Divisor,2026-07-18 08:24:25,0,1,5,0,0.0006712962962962962
+2071974668,Find Greatest Common Divisor of Array,find-greatest-common-divisor-of-array,Accepted,java,0 ms,44.9 MB,1784363143,Easy,Array|Math|Number Theory|Euclidean Algorithm|Greatest Common Divisor,2026-07-18 08:25:43,1,0,6,1,0.0009027777777777777
+2071974968,Find Greatest Common Divisor of Array,find-greatest-common-divisor-of-array,Accepted,java,0 ms,45.2 MB,1784363162,Easy,Array|Math|Number Theory|Euclidean Algorithm|Greatest Common Divisor,2026-07-18 08:26:02,1,0,7,0,0.0002199074074074074
+2071977050,Find Greatest Common Divisor of Array,find-greatest-common-divisor-of-array,Compile Error,java,,,1784363295,Easy,Array|Math|Number Theory|Euclidean Algorithm|Greatest Common Divisor,2026-07-18 08:28:15,0,1,8,0,0.0015393518518518519
+2073689507,Smallest Subsequence of Distinct Characters,smallest-subsequence-of-distinct-characters,Accepted,java,3 ms,42.9 MB,1784478900,Medium,String|Stack|Greedy|Monotonic Stack,2026-07-19 16:35:00,1,0,1,1,-1.0
+2074292845,Subarray Sum Equals K,subarray-sum-equals-k,Wrong Answer,java,,,1784534937,Medium,Array|Hash Table|Prefix Sum,2026-07-20 08:08:57,0,1,2,0,30.592546296296295
+2074293847,Subarray Sum Equals K,subarray-sum-equals-k,Wrong Answer,java,,,1784535004,Medium,Array|Hash Table|Prefix Sum,2026-07-20 08:10:04,0,1,3,0,0.0007754629629629629
+2074294752,Subarray Sum Equals K,subarray-sum-equals-k,Wrong Answer,java,,,1784535067,Medium,Array|Hash Table|Prefix Sum,2026-07-20 08:11:07,0,1,4,0,0.0007291666666666667
+2074300011,Subarray Sum Equals K,subarray-sum-equals-k,Accepted,java,26 ms,48.5 MB,1784535418,Medium,Array|Hash Table|Prefix Sum,2026-07-20 08:16:58,1,0,5,0,0.0040625
+2074898925,Shift 2D Grid,shift-2d-grid,Accepted,java,6 ms,47.1 MB,1784568348,Easy,Array|Matrix|Simulation,2026-07-20 17:25:48,1,0,1,1,-1.0
+2074899191,Shift 2D Grid,shift-2d-grid,Accepted,java,7 ms,47.2 MB,1784568359,Easy,Array|Matrix|Simulation,2026-07-20 17:25:59,1,0,2,0,0.0001273148148148148
+2076215647,Maximize Active Section with Trade I,maximize-active-section-with-trade-i,Compile Error,java,,,1784656387,Medium,String|Enumeration,2026-07-21 17:53:07,0,1,1,0,-1.0
+2076218313,Maximize Active Section with Trade I,maximize-active-section-with-trade-i,Compile Error,java,,,1784656497,Medium,String|Enumeration,2026-07-21 17:54:57,0,1,2,0,0.0012731481481481483
+2076220511,Maximize Active Section with Trade I,maximize-active-section-with-trade-i,Accepted,java,78 ms,48.1 MB,1784656589,Medium,String|Enumeration,2026-07-21 17:56:29,1,0,3,1,0.0010648148148148149
+2076220838,Maximize Active Section with Trade I,maximize-active-section-with-trade-i,Accepted,java,79 ms,48.1 MB,1784656604,Medium,String|Enumeration,2026-07-21 17:56:44,1,0,4,0,0.00017361111111111112
+2076723452,Minimum Score of a Path Between Two Cities,minimum-score-of-a-path-between-two-cities,Accepted,java,36 ms,208.4 MB,1784701867,Medium,Depth-First Search|Breadth-First Search|Union-Find|Graph Theory,2026-07-22 06:31:07,1,0,1,1,-1.0
+2076731938,Maximize Active Section with Trade II,maximize-active-section-with-trade-ii,Accepted,java,180 ms,276.3 MB,1784702255,Hard,Array|String|Binary Search|Segment Tree,2026-07-22 06:37:35,1,0,1,1,-1.0
+2076776335,Move Zeroes,move-zeroes,Accepted,java,2 ms,47.9 MB,1784704435,Easy,Array|Two Pointers,2026-07-22 07:13:55,1,0,1,1,-1.0
+2076785636,Majority Element,majority-element,Accepted,java,19 ms,52.4 MB,1784704991,Easy,Array|Hash Table|Divide and Conquer|Sorting|Counting|Boyer–Moore Majority Vote Algorithm,2026-07-22 07:23:11,1,0,5,0,6.659050925925926
+2076800554,Find Greatest Common Divisor of Array,find-greatest-common-divisor-of-array,Accepted,java,0 ms,44.7 MB,1784705979,Easy,Array|Math|Number Theory|Euclidean Algorithm|Greatest Common Divisor,2026-07-22 07:39:39,1,0,9,0,3.96625
+2076818512,Rotate Array,rotate-array,Runtime Error,java,,,1784707212,Medium,Array|Math|Two Pointers,2026-07-22 08:00:12,0,1,1,0,-1.0
+2076819975,Rotate Array,rotate-array,Accepted,java,0 ms,61.1 MB,1784707310,Medium,Array|Math|Two Pointers,2026-07-22 08:01:50,1,0,2,1,0.0011342592592592593
+2078757633,Number of Unique XOR Triplets I,number-of-unique-xor-triplets-i,Accepted,java,0 ms,125.7 MB,1784830736,Medium,Array|Math|Bit Manipulation,2026-07-23 18:18:56,1,0,1,1,-1.0
+2079897792,Number of Unique XOR Triplets II,number-of-unique-xor-triplets-ii,Accepted,java,248 ms,46.9 MB,1784914367,Medium,Array|Math|Bit Manipulation|Enumeration,2026-07-24 17:32:47,1,0,1,1,-1.0
+2079898079,Number of Unique XOR Triplets II,number-of-unique-xor-triplets-ii,Accepted,java,248 ms,47 MB,1784914381,Medium,Array|Math|Bit Manipulation|Enumeration,2026-07-24 17:33:01,1,0,2,0,0.00016203703703703703
+2081102429,Maximum Product of Two Digits,maximum-product-of-two-digits,Accepted,java,1 ms,42.7 MB,1785002942,Easy,Math|Sorting,2026-07-25 18:09:02,1,0,1,1,-1.0
+2082435087,Maximum Product of Three Numbers,maximum-product-of-three-numbers,Accepted,java,2 ms,47.1 MB,1785089395,Easy,Array|Math|Sorting,2026-07-26 18:09:55,1,0,1,1,-1.0
+2083594023,Maximum Product of Two Elements in an Array,maximum-product-of-two-elements-in-an-array,Accepted,java,0 ms,44.5 MB,1785167744,Easy,Array|Sorting|Heap (Priority Queue),2026-07-27 15:55:44,1,0,1,1,-1.0
+2085034989,Smallest Palindromic Rearrangement I,smallest-palindromic-rearrangement-i,Accepted,java,29 ms,48.2 MB,1785255679,Medium,String|Sorting|Counting Sort,2026-07-28 16:21:19,1,0,1,1,-1.0
+2086124780,Smallest Palindromic Rearrangement II,smallest-palindromic-rearrangement-ii,Accepted,java,18 ms,47 MB,1785329672,Hard,Hash Table|Math|String|Combinatorics|Counting,2026-07-29 12:54:32,1,0,1,1,-1.0
+2087594119,Minimum Number of Pushes to Type Word I,minimum-number-of-pushes-to-type-word-i,Accepted,java,0 ms,42.9 MB,1785420622,Easy,Math|String|Greedy,2026-07-30 14:10:22,1,0,1,1,-1.0
+2087685861,Minimum Number of Pushes to Type Word I,minimum-number-of-pushes-to-type-word-i,Compile Error,java,,,1785425079,Easy,Math|String|Greedy,2026-07-30 15:24:39,0,1,2,0,0.05158564814814815
+2089131171,Minimum Number of Pushes to Type Word II,minimum-number-of-pushes-to-type-word-ii,Accepted,java,10 ms,47.8 MB,1785519615,Medium,Hash Table|String|Greedy|Sorting|Counting,2026-07-31 17:40:15,1,0,1,1,-1.0
+2090448815,Predict the Winner,predict-the-winner,Accepted,java,0 ms,42.6 MB,1785608537,Medium,Array|Math|Dynamic Programming|Recursion|Minimax|Game Theory|Zero-Sum Game,2026-08-01 18:22:17,1,0,1,1,-1.0
+2091586546,Stone Game,stone-game,Accepted,java,5 ms,43.2 MB,1785686889,Medium,Array|Math|Dynamic Programming|Minimax|Game Theory|Zero-Sum Game,2026-08-02 16:08:09,1,0,1,1,-1.0
+2092557537,Stone Game III,stone-game-iii,Accepted,java,11 ms,85.6 MB,1785758055,Hard,Array|Math|Dynamic Programming|Minimax|Game Theory|Zero-Sum Game,2026-08-03 11:54:15,1,0,1,1,-1.0
+2093979161,Find Missing Elements,find-missing-elements,Accepted,java,2 ms,46.3 MB,1785847603,Easy,Array|Hash Table|Sorting,2026-08-04 12:46:43,1,0,1,1,-1.0
+2094011844,Valid Sudoku,valid-sudoku,Accepted,java,11 ms,52.7 MB,1785849256,Medium,Array|Hash Table|Matrix,2026-08-04 13:14:16,1,0,1,1,-1.0
+2095019281,Minimum Size Subarray Sum,minimum-size-subarray-sum,Accepted,java,1 ms,69.4 MB,1785916180,Medium,Array|Binary Search|Sliding Window|Prefix Sum,2026-08-05 07:49:40,1,0,1,1,-1.0
+2095046985,Longest Substring Without Repeating Characters,longest-substring-without-repeating-characters,Accepted,java,66 ms,48 MB,1785918190,Medium,Hash Table|String|Sliding Window,2026-08-05 08:23:10,1,0,3,0,157.76277777777779
+2095385663,Longest Repeating Character Replacement,longest-repeating-character-replacement,Accepted,java,27 ms,47.3 MB,1785937748,Medium,Hash Table|String|Sliding Window,2026-08-05 13:49:08,1,0,1,1,-1.0
+2095387545,Remove Methods From Project,remove-methods-from-project,Accepted,java,48 ms,281.7 MB,1785937834,Medium,Depth-First Search|Breadth-First Search|Graph Theory,2026-08-05 13:50:34,1,0,1,1,-1.0
+2095425044,Partition Equal Subset Sum,partition-equal-subset-sum,Wrong Answer,java,,,1785939597,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 14:19:57,0,1,1,0,-1.0
+2095462051,Partition Equal Subset Sum,partition-equal-subset-sum,Wrong Answer,java,,,1785941370,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 14:49:30,0,1,2,0,0.020520833333333332
+2095467181,Partition Equal Subset Sum,partition-equal-subset-sum,Wrong Answer,java,,,1785941617,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 14:53:37,0,1,3,0,0.0028587962962962963
+2095469087,Partition Equal Subset Sum,partition-equal-subset-sum,Wrong Answer,java,,,1785941714,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 14:55:14,0,1,4,0,0.0011226851851851851
+2095471710,Partition Equal Subset Sum,partition-equal-subset-sum,Wrong Answer,java,,,1785941844,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 14:57:24,0,1,5,0,0.0015046296296296296
+2095474494,Partition Equal Subset Sum,partition-equal-subset-sum,Wrong Answer,java,,,1785941981,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 14:59:41,0,1,6,0,0.001585648148148148
+2095475401,Partition Equal Subset Sum,partition-equal-subset-sum,Wrong Answer,java,,,1785942028,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 15:00:28,0,1,7,0,0.0005439814814814814
+2095475806,Partition Equal Subset Sum,partition-equal-subset-sum,Wrong Answer,java,,,1785942046,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 15:00:46,0,1,8,0,0.00020833333333333335
+2095477178,Partition Equal Subset Sum,partition-equal-subset-sum,Wrong Answer,java,,,1785942112,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 15:01:52,0,1,9,0,0.0007638888888888889
+2095478434,Partition Equal Subset Sum,partition-equal-subset-sum,Wrong Answer,java,,,1785942178,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 15:02:58,0,1,10,0,0.0007638888888888889
+2095478703,Partition Equal Subset Sum,partition-equal-subset-sum,Wrong Answer,java,,,1785942192,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 15:03:12,0,1,11,0,0.00016203703703703703
+2095480697,Partition Equal Subset Sum,partition-equal-subset-sum,Wrong Answer,java,,,1785942292,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 15:04:52,0,1,12,0,0.0011574074074074073
+2095548346,Partition Equal Subset Sum,partition-equal-subset-sum,Compile Error,java,,,1785945510,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 15:58:30,0,1,13,0,0.03724537037037037
+2095548618,Partition Equal Subset Sum,partition-equal-subset-sum,Wrong Answer,java,,,1785945522,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 15:58:42,0,1,14,0,0.0001388888888888889
+2095551925,Partition Equal Subset Sum,partition-equal-subset-sum,Accepted,java,67 ms,47.5 MB,1785945671,Medium,Array|Dynamic Programming|Knapsack Problem|0-1 Knapsack,2026-08-05 16:01:11,1,0,15,1,0.001724537037037037
+2095597099,Coin Change,coin-change,Compile Error,java,,,1785947574,Medium,Array|Dynamic Programming|Breadth-First Search|Knapsack Problem|Complete Knapsack,2026-08-05 16:32:54,0,1,1,0,-1.0
+2095597767,Coin Change,coin-change,Wrong Answer,java,,,1785947601,Medium,Array|Dynamic Programming|Breadth-First Search|Knapsack Problem|Complete Knapsack,2026-08-05 16:33:21,0,1,2,0,0.0003125
+2095598995,Coin Change,coin-change,Accepted,java,16 ms,46.3 MB,1785947650,Medium,Array|Dynamic Programming|Breadth-First Search|Knapsack Problem|Complete Knapsack,2026-08-05 16:34:10,1,0,3,1,0.0005671296296296297
+2095606832,Coin Change,coin-change,Wrong Answer,java,,,1785947956,Medium,Array|Dynamic Programming|Breadth-First Search|Knapsack Problem|Complete Knapsack,2026-08-05 16:39:16,0,1,4,0,0.0035416666666666665
+2095607201,Coin Change,coin-change,Accepted,java,16 ms,46.4 MB,1785947972,Medium,Array|Dynamic Programming|Breadth-First Search|Knapsack Problem|Complete Knapsack,2026-08-05 16:39:32,1,0,5,0,0.00018518518518518518
+2095619596,Coin Change II,coin-change-ii,Compile Error,java,,,1785948455,Medium,Array|Dynamic Programming|Knapsack Problem|Complete Knapsack,2026-08-05 16:47:35,0,1,1,0,-1.0
+2095619914,Coin Change II,coin-change-ii,Accepted,java,6 ms,43.2 MB,1785948467,Medium,Array|Dynamic Programming|Knapsack Problem|Complete Knapsack,2026-08-05 16:47:47,1,0,2,1,0.0001388888888888889
+2095662904,Reverse String,reverse-string,Accepted,java,0 ms,48.1 MB,1785950128,Easy,Two Pointers|String,2026-08-05 17:15:28,1,0,1,1,-1.0
+2097131882,Smallest Divisible Digit Product I,smallest-divisible-digit-product-i,Accepted,java,1 ms,42.8 MB,1786040218,Easy,Math|Enumeration,2026-08-06 18:16:58,1,0,1,1,-1.0
+2097132330,Smallest Divisible Digit Product I,smallest-divisible-digit-product-i,Accepted,java,1 ms,42.6 MB,1786040236,Easy,Math|Enumeration,2026-08-06 18:17:16,1,0,2,0,0.00020833333333333335
+2097481957,Two Sum,two-sum,Accepted,java,2 ms,47.1 MB,1786078787,Easy,Array|Hash Table,2026-08-07 04:59:47,1,0,11,0,20.840358796296297
+2097495622,Contains Duplicate,contains-duplicate,Accepted,java,18 ms,108.2 MB,1786079519,Easy,Array|Hash Table|Sorting,2026-08-07 05:11:59,1,0,2,0,48.47295138888889
+2097504782,Valid Anagram,valid-anagram,Wrong Answer,java,,,1786080004,Easy,Hash Table|String|Sorting,2026-08-07 05:20:04,0,1,2,0,48.477731481481484
+2097505766,Valid Anagram,valid-anagram,Wrong Answer,java,,,1786080058,Easy,Hash Table|String|Sorting,2026-08-07 05:20:58,0,1,3,0,0.000625
+2097507938,Valid Anagram,valid-anagram,Wrong Answer,java,,,1786080177,Easy,Hash Table|String|Sorting,2026-08-07 05:22:57,0,1,4,0,0.0013773148148148147
+2097509373,Valid Anagram,valid-anagram,Wrong Answer,java,,,1786080256,Easy,Hash Table|String|Sorting,2026-08-07 05:24:16,0,1,5,0,0.0009143518518518518
+2097509596,Valid Anagram,valid-anagram,Wrong Answer,java,,,1786080268,Easy,Hash Table|String|Sorting,2026-08-07 05:24:28,0,1,6,0,0.0001388888888888889
+2097510038,Valid Anagram,valid-anagram,Wrong Answer,java,,,1786080293,Easy,Hash Table|String|Sorting,2026-08-07 05:24:53,0,1,7,0,0.00028935185185185184
+2097517991,Valid Anagram,valid-anagram,Wrong Answer,java,,,1786080716,Easy,Hash Table|String|Sorting,2026-08-07 05:31:56,0,1,8,0,0.004895833333333334
+2097521156,Valid Anagram,valid-anagram,Wrong Answer,java,,,1786080887,Easy,Hash Table|String|Sorting,2026-08-07 05:34:47,0,1,9,0,0.001979166666666667
+2097530793,Valid Anagram,valid-anagram,Accepted,java,24 ms,46.3 MB,1786081419,Easy,Hash Table|String|Sorting,2026-08-07 05:43:39,1,0,10,0,0.0061574074074074074
+2097533019,Valid Anagram,valid-anagram,Accepted,java,5 ms,44.2 MB,1786081543,Easy,Hash Table|String|Sorting,2026-08-07 05:45:43,1,0,11,0,0.0014351851851851852
+2098184343,Smallest Divisible Digit Product II,smallest-divisible-digit-product-ii,Accepted,java,30 ms,55 MB,1786119906,Hard,Math|String|Backtracking|Greedy|Number Theory,2026-08-07 16:25:06,1,0,1,1,-1.0
+2098641806,Find the Lexicographically Smallest Valid Sequence,find-the-lexicographically-smallest-valid-sequence,Accepted,java,32 ms,137.5 MB,1786165018,,,2026-08-08 04:56:58,1,0,1,1,-1.0
+2098672540,Zigzag Conversion,zigzag-conversion,Accepted,java,4 ms,46.5 MB,1786166992,,,2026-08-08 05:29:52,1,0,1,1,-1.0

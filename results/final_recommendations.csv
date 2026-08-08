@@ -1,0 +1,62 @@
+topic,attempts,accepted,failures,unique_problems,avg_difficulty,last_practiced,accuracy,failure_rate,days_since_practice,recent_attempts,recent_accuracy,recent_failures,weakness_score,confidence,adjusted_weakness_score,ml_failure_probability,normalized_weakness,final_risk_score,risk_level,recommendation_reason
+0-1 Knapsack,15,1,14,1,2.0,2026-08-05 16:01:11,0.067,0.933,2.017,5,0.2,4,71.342,1.0,71.342,0.457,1.0,78.292,HIGH,URGENT: very low historical accuracy; recent performance is weak; repeated attempts show persistent difficulty
+Knapsack Problem,22,4,18,3,2.0,2026-08-05 16:47:47,0.182,0.818,1.984,5,0.6,2,52.719,1.0,52.719,0.445,0.739,62.131,MEDIUM,HIGH: very low historical accuracy; repeated attempts show persistent difficulty
+Sorting,63,27,36,18,1.635,2026-08-07 05:45:43,0.429,0.571,0.444,5,0.4,3,47.254,1.0,47.254,0.547,0.662,61.619,MEDIUM,HIGH: very low historical accuracy; recent performance is weak; repeated attempts show persistent difficulty
+Two Pointers,44,18,26,16,1.864,2026-08-05 17:15:28,0.409,0.591,1.965,5,0.6,2,42.937,1.0,42.937,0.616,0.602,60.761,MEDIUM,HIGH: very low historical accuracy; repeated attempts show persistent difficulty; ML model predicts high failure probability
+Euclidean Algorithm,13,7,6,3,1.615,2026-07-22 07:39:39,0.538,0.462,16.365,5,0.6,2,43.721,1.0,43.721,0.591,0.613,60.423,MEDIUM,HIGH: below-average historical accuracy; repeated attempts show persistent difficulty; topic has not been practiced recently
+Greatest Common Divisor,13,7,6,3,1.615,2026-07-22 07:39:39,0.538,0.462,16.365,5,0.6,2,43.721,1.0,43.721,0.591,0.613,60.423,MEDIUM,HIGH: below-average historical accuracy; repeated attempts show persistent difficulty; topic has not been practiced recently
+Boyer–Moore Majority Vote Algorithm,5,2,3,1,1.0,2026-07-22 07:23:11,0.4,0.6,16.376,5,0.4,3,53.188,0.5,39.891,0.656,0.559,59.794,MEDIUM,HIGH: very low historical accuracy; recent performance is weak; topic has not been practiced recently; ML model predicts high failure probability
+Divide and Conquer,13,9,4,5,1.769,2026-07-22 07:23:11,0.692,0.308,16.376,5,0.4,3,45.342,1.0,45.342,0.378,0.636,53.241,MEDIUM,HIGH: below-average historical accuracy; recent performance is weak; repeated attempts show persistent difficulty; topic has not been practiced recently
+Complete Knapsack,7,3,4,2,2.0,2026-08-05 16:47:47,0.429,0.571,1.984,5,0.6,2,42.849,0.7,36.422,0.418,0.511,47.356,MEDIUM,HIGH: very low historical accuracy
+Hash Table,59,39,20,24,1.458,2026-08-07 05:45:43,0.661,0.339,0.444,5,0.4,3,37.069,1.0,37.069,0.338,0.52,44.682,LOW,NORMAL: below-average historical accuracy; recent performance is weak; repeated attempts show persistent difficulty
+Prefix Sum,18,13,5,9,1.944,2026-08-05 07:49:40,0.722,0.278,2.358,5,0.4,3,38.012,1.0,38.012,0.304,0.533,44.128,LOW,NORMAL: recent performance is weak; repeated attempts show persistent difficulty
+Number Theory,17,11,6,6,1.706,2026-08-07 16:25:06,0.647,0.353,0.0,5,0.8,1,24.647,1.0,24.647,0.545,0.345,42.512,LOW,NORMAL: below-average historical accuracy; repeated attempts show persistent difficulty
+Dynamic Programming,57,35,22,21,2.175,2026-08-05 16:47:47,0.614,0.386,1.984,5,0.6,2,36.308,1.0,36.308,0.287,0.509,42.008,LOW,NORMAL: below-average historical accuracy; repeated attempts show persistent difficulty
+Array,162,97,65,55,1.79,2026-08-07 05:11:59,0.599,0.401,0.467,5,0.8,1,27.234,1.0,27.234,0.405,0.382,39.124,LOW,NORMAL: below-average historical accuracy; repeated attempts show persistent difficulty
+Breadth-First Search,19,16,3,8,2.053,2026-08-05 16:39:32,0.842,0.158,1.99,5,0.4,3,33.574,1.0,33.574,0.181,0.471,35.474,LOW,NORMAL: recent performance is weak; repeated attempts show persistent difficulty
+String,50,35,15,27,1.64,2026-08-07 16:25:06,0.7,0.3,0.0,5,0.6,2,29.2,1.0,29.2,0.252,0.409,34.63,LOW,NORMAL: repeated attempts show persistent difficulty
+Bracket Sequences,4,3,1,3,1.75,2026-06-19 17:46:48,0.75,0.25,48.943,4,0.75,1,37.5,0.4,26.25,0.277,0.368,33.172,LOW,NORMAL: topic has not been practiced recently
+Binary Lifting,3,2,1,2,2.0,2026-06-19 18:05:04,0.667,0.333,48.931,3,0.667,1,45.0,0.3,29.25,0.183,0.41,31.928,LOW,NORMAL: below-average historical accuracy; topic has not been practiced recently
+Lowest Common Ancestor,3,2,1,2,2.0,2026-06-19 18:05:04,0.667,0.333,48.931,3,0.667,1,45.0,0.3,29.25,0.183,0.41,31.928,LOW,NORMAL: below-average historical accuracy; topic has not been practiced recently
+Tree,11,10,1,10,2.0,2026-06-23 17:45:20,0.909,0.091,44.944,5,0.8,1,30.636,1.0,30.636,0.119,0.429,30.524,LOW,NORMAL: repeated attempts show persistent difficulty; topic has not been practiced recently
+Binary Tree,11,10,1,10,2.0,2026-06-23 17:45:20,0.909,0.091,44.944,5,0.8,1,30.636,1.0,30.636,0.119,0.429,30.524,LOW,NORMAL: repeated attempts show persistent difficulty; topic has not been practiced recently
+Counting,11,8,3,5,1.727,2026-07-31 17:40:15,0.727,0.273,6.948,5,1.0,0,18.019,1.0,18.019,0.377,0.253,30.231,LOW,NORMAL: repeated attempts show persistent difficulty
+Simulation,4,4,0,2,1.5,2026-07-20 17:25:59,1.0,0.0,17.958,4,1.0,0,11.479,0.4,8.035,0.422,0.113,23.638,LOW,NORMAL: topic has not been practiced recently
+Math,51,40,11,29,1.686,2026-08-07 16:25:06,0.784,0.216,0.0,5,1.0,0,12.059,1.0,12.059,0.32,0.169,22.924,LOW,NORMAL: repeated attempts show persistent difficulty
+Union-Find,8,7,1,4,2.0,2026-07-22 06:31:07,0.875,0.125,16.412,5,1.0,0,18.206,0.8,16.386,0.214,0.23,22.325,LOW,NORMAL: topic has not been practiced recently
+Stack,8,7,1,7,1.625,2026-07-19 16:35:00,0.875,0.125,18.993,5,1.0,0,17.622,0.8,15.859,0.225,0.222,22.322,LOW,NORMAL: topic has not been practiced recently
+Linked List,8,8,0,7,1.5,2026-06-19 18:10:35,1.0,0.0,48.927,5,1.0,0,17.5,0.8,15.75,0.167,0.221,19.929,LOW,NORMAL: topic has not been practiced recently
+Shortest Path,9,9,0,2,2.444,2026-07-03 18:07:12,1.0,0.0,34.929,5,1.0,0,22.222,0.9,21.111,0.032,0.296,19.044,LOW,NORMAL: topic has not been practiced recently
+Enumeration,14,12,2,6,1.857,2026-08-06 18:17:16,0.857,0.143,0.922,5,1.0,0,10.461,1.0,10.461,0.252,0.147,18.877,LOW,NORMAL: repeated attempts show persistent difficulty
+Sliding Window,7,6,1,4,2.0,2026-08-05 13:49:08,0.857,0.143,2.108,5,1.0,0,11.768,0.7,10.003,0.259,0.14,18.788,LOW,NORMAL: moderate historical difficulty
+Combinatorics,2,2,0,2,3.0,2026-07-29 12:54:32,1.0,0.0,9.146,2,1.0,0,14.573,0.2,8.744,0.265,0.123,17.939,LOW,NORMAL: moderate historical difficulty
+Monotonic Stack,2,2,0,2,2.0,2026-07-19 16:35:00,1.0,0.0,18.993,2,1.0,0,14.497,0.2,8.698,0.241,0.122,16.965,LOW,NORMAL: topic has not been practiced recently
+Design,5,5,0,4,1.8,2026-06-19 18:11:26,1.0,0.0,48.926,5,1.0,0,19.0,0.5,14.25,0.114,0.2,16.527,LOW,NORMAL: topic has not been practiced recently
+Topological Sort,4,4,0,1,3.0,2026-07-03 18:07:12,1.0,0.0,34.929,4,1.0,0,25.0,0.4,17.5,0.042,0.245,16.397,LOW,NORMAL: topic has not been practiced recently
+Greedy,18,17,1,12,1.889,2026-08-07 16:25:06,0.944,0.056,0.0,5,0.8,1,13.667,1.0,13.667,0.118,0.192,16.216,LOW,NORMAL: repeated attempts show persistent difficulty
+Binary Search Tree,4,4,0,4,2.0,2026-06-23 17:45:20,1.0,0.0,44.944,4,1.0,0,20.0,0.4,14.0,0.108,0.196,16.091,LOW,NORMAL: topic has not been practiced recently
+Bit Manipulation,6,6,0,4,2.333,2026-07-24 17:33:01,1.0,0.0,13.953,5,1.0,0,13.643,0.6,10.914,0.169,0.153,15.958,LOW,NORMAL: moderate historical difficulty
+Binary Search,16,15,1,10,2.438,2026-08-05 07:49:40,0.938,0.062,2.358,5,1.0,0,10.866,1.0,10.866,0.154,0.152,15.302,LOW,NORMAL: repeated attempts show persistent difficulty
+Recursion,5,5,0,4,1.6,2026-08-01 18:22:17,1.0,0.0,5.919,5,1.0,0,5.959,0.5,4.469,0.276,0.063,14.797,LOW,NORMAL: moderate historical difficulty
+Merge Sort,4,4,0,2,2.25,2026-06-26 18:15:07,1.0,0.0,41.924,4,1.0,0,21.25,0.4,14.875,0.055,0.209,14.718,LOW,NORMAL: topic has not been practiced recently
+DP on Trees,1,1,0,1,3.0,2026-06-19 18:00:18,1.0,0.0,48.934,1,1.0,0,25.0,0.1,13.75,0.078,0.193,14.694,LOW,NORMAL: topic has not been practiced recently
+Graph Theory,18,17,1,7,2.333,2026-08-05 13:50:34,0.944,0.056,2.107,5,1.0,0,9.943,1.0,9.943,0.143,0.139,14.084,LOW,NORMAL: repeated attempts show persistent difficulty
+Segment Tree,5,5,0,3,2.4,2026-07-22 06:37:35,1.0,0.0,16.408,5,1.0,0,15.204,0.5,11.403,0.09,0.16,13.206,LOW,NORMAL: topic has not been practiced recently
+Depth-First Search,15,14,1,12,2.0,2026-08-05 13:50:34,0.933,0.067,2.107,5,1.0,0,8.72,1.0,8.72,0.147,0.122,13.198,LOW,NORMAL: repeated attempts show persistent difficulty
+Heap (Priority Queue),12,12,0,4,2.25,2026-07-27 15:55:44,1.0,0.0,11.02,5,1.0,0,11.76,1.0,11.76,0.039,0.165,11.459,LOW,NORMAL: repeated attempts show persistent difficulty
+Counting Sort,1,1,0,1,2.0,2026-07-28 16:21:19,1.0,0.0,10.003,1,1.0,0,10.001,0.1,5.501,0.156,0.077,10.864,LOW,NORMAL: moderate historical difficulty
+Game Theory,3,3,0,3,2.333,2026-08-03 11:54:15,1.0,0.0,4.188,3,1.0,0,8.761,0.3,5.694,0.149,0.08,10.745,LOW,NORMAL: moderate historical difficulty
+Minimax,3,3,0,3,2.333,2026-08-03 11:54:15,1.0,0.0,4.188,3,1.0,0,8.761,0.3,5.694,0.149,0.08,10.745,LOW,NORMAL: moderate historical difficulty
+Zero-Sum Game,3,3,0,3,2.333,2026-08-03 11:54:15,1.0,0.0,4.188,3,1.0,0,8.761,0.3,5.694,0.149,0.08,10.745,LOW,NORMAL: moderate historical difficulty
+Trie,2,2,0,1,1.0,2026-06-19 16:47:51,1.0,0.0,48.984,2,1.0,0,15.0,0.2,9.0,0.071,0.126,10.399,LOW,NORMAL: topic has not been practiced recently
+Doubly-Linked List,1,1,0,1,2.0,2026-06-19 18:08:10,1.0,0.0,48.928,1,1.0,0,20.0,0.1,11.0,0.024,0.154,10.203,LOW,NORMAL: topic has not been practiced recently
+Manacher,1,1,0,1,2.0,2026-06-19 17:03:28,1.0,0.0,48.973,1,1.0,0,20.0,0.1,11.0,0.017,0.154,9.951,LOW,NORMAL: topic has not been practiced recently
+Memoization,1,1,0,1,1.0,2026-06-19 18:27:31,1.0,0.0,48.915,1,1.0,0,15.0,0.1,8.25,0.072,0.116,9.807,LOW,NORMAL: topic has not been practiced recently
+Matrix,13,13,0,5,2.077,2026-08-04 13:14:16,1.0,0.0,3.133,5,1.0,0,6.951,1.0,6.951,0.092,0.097,9.531,LOW,NORMAL: repeated attempts show persistent difficulty
+Backtracking,2,2,0,2,2.5,2026-08-07 16:25:06,1.0,0.0,0.0,2,1.0,0,7.5,0.2,4.5,0.139,0.063,9.332,LOW,NORMAL: moderate historical difficulty
+Newton's Method,1,1,0,1,1.0,2026-06-19 17:48:22,1.0,0.0,48.942,1,1.0,0,15.0,0.1,8.25,0.058,0.116,9.26,LOW,NORMAL: topic has not been practiced recently
+Z Algorithm,1,1,0,1,1.0,2026-06-19 16:51:09,1.0,0.0,48.982,1,1.0,0,15.0,0.1,8.25,0.053,0.116,9.052,LOW,NORMAL: topic has not been practiced recently
+Boyer–Moore String-Search Algorithm,1,1,0,1,1.0,2026-06-19 16:51:09,1.0,0.0,48.982,1,1.0,0,15.0,0.1,8.25,0.053,0.116,9.052,LOW,NORMAL: topic has not been practiced recently
+Knuth–Morris–Pratt Algorithm,1,1,0,1,1.0,2026-06-19 16:51:09,1.0,0.0,48.982,1,1.0,0,15.0,0.1,8.25,0.053,0.116,9.052,LOW,NORMAL: topic has not been practiced recently
+String Matching,1,1,0,1,1.0,2026-06-19 16:51:09,1.0,0.0,48.982,1,1.0,0,15.0,0.1,8.25,0.053,0.116,9.052,LOW,NORMAL: topic has not been practiced recently
+Floyd's Cycle Finding Algorithm,1,1,0,1,1.0,2026-06-19 18:10:35,1.0,0.0,48.927,1,1.0,0,15.0,0.1,8.25,0.018,0.116,7.678,LOW,NORMAL: topic has not been practiced recently
