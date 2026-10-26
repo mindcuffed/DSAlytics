@@ -208,65 +208,63 @@ for feature in X.columns:
     print(f"- {feature}")
 
 # ============================================================
-# CHRONOLOGICAL TRAIN / TEST SPLIT
+# 
+# ============================================================
+# CHRONOLOGICAL TRAIN / VALIDATION / TEST SPLIT
 # ============================================================
 
-# IMPORTANT:
-# We do NOT use random splitting.
-#
 # Earlier submissions -> training
-# Later submissions  -> testing
+# Next submissions    -> validation and model selection
+# Latest submissions -> final testing
 #
-# This better represents how DSAlytics will behave
-# when predicting future submissions.
+# The final test set must NOT be used to select the best model.
 
-split_index = int(
-    len(X) * 0.80
-)
+train_end = int(len(X) * 0.70)
+validation_end = int(len(X) * 0.85)
 
-X_train = X.iloc[:split_index]
-X_test = X.iloc[split_index:]
+X_train = X.iloc[:train_end]
+X_val = X.iloc[train_end:validation_end]
+X_test = X.iloc[validation_end:]
 
-y_train = y.iloc[:split_index]
-y_test = y.iloc[split_index:]
+y_train = y.iloc[:train_end]
+y_val = y.iloc[train_end:validation_end]
+y_test = y.iloc[validation_end:]
 
 print("\n" + "=" * 60)
-print("CHRONOLOGICAL TRAIN / TEST SPLIT")
+print("CHRONOLOGICAL TRAIN / VALIDATION / TEST SPLIT")
 print("=" * 60)
 
+print(f"\nTraining samples   : {len(X_train)}")
+print(f"Validation samples : {len(X_val)}")
+print(f"Final test samples : {len(X_test)}")
+
 print(
-    f"\nTraining samples: {len(X_train)}"
+    f"\nTraining period: "
+    f"{df.iloc[0]['submission_date']} -> "
+    f"{df.iloc[train_end - 1]['submission_date']}"
 )
 
 print(
-    f"Testing samples : {len(X_test)}"
+    f"Validation period: "
+    f"{df.iloc[train_end]['submission_date']} -> "
+    f"{df.iloc[validation_end - 1]['submission_date']}"
 )
 
 print(
-    f"Training period: "
-    f"{df.iloc[0]['submission_date']} "
-    f"-> "
-    f"{df.iloc[split_index - 1]['submission_date']}"
-)
-
-print(
-    f"Testing period : "
-    f"{df.iloc[split_index]['submission_date']} "
-    f"-> "
+    f"Final test period: "
+    f"{df.iloc[validation_end]['submission_date']} -> "
     f"{df.iloc[-1]['submission_date']}"
 )
 
 print("\nTraining target distribution:")
+print(y_train.value_counts())
 
-print(
-    y_train.value_counts()
-)
+print("\nValidation target distribution:")
+print(y_val.value_counts())
 
-print("\nTesting target distribution:")
+print("\nFinal test target distribution:")
+print(y_test.value_counts())
 
-print(
-    y_test.value_counts()
-)
 
 # ============================================================
 # MODELS
@@ -297,206 +295,182 @@ models = {
 }
 
 # ============================================================
-# TRAIN + EVALUATE
+#
+# ============================================================
+# TRAIN + VALIDATION EVALUATION
 # ============================================================
 
 results = []
-
 trained_models = {}
 
 for model_name, model in models.items():
 
     print("\n" + "=" * 60)
-
-    print(
-        f"TRAINING: {model_name}"
-    )
-
+    print(f"TRAINING: {model_name}")
     print("=" * 60)
 
-    # --------------------------------------------------------
-    # TRAIN
-    # --------------------------------------------------------
+    # Train only on the training period
+    model.fit(X_train, y_train)
 
-    model.fit(
-        X_train,
-        y_train
+    # Evaluate candidates on validation data
+    val_predictions = model.predict(X_val)
+    val_probabilities = model.predict_proba(X_val)[:, 1]
+
+    val_accuracy = accuracy_score(y_val, val_predictions)
+    val_precision = precision_score(
+        y_val, val_predictions, zero_division=0
     )
-
-    # --------------------------------------------------------
-    # PREDICTIONS
-    # --------------------------------------------------------
-
-    predictions = model.predict(
-        X_test
+    val_recall = recall_score(
+        y_val, val_predictions, zero_division=0
     )
-
-    probabilities = model.predict_proba(
-        X_test
-    )[:, 1]
-
-    # --------------------------------------------------------
-    # METRICS
-    # --------------------------------------------------------
-
-    accuracy = accuracy_score(
-        y_test,
-        predictions
-    )
-
-    precision = precision_score(
-        y_test,
-        predictions,
-        zero_division=0
-    )
-
-    recall = recall_score(
-        y_test,
-        predictions,
-        zero_division=0
-    )
-
-    f1 = f1_score(
-        y_test,
-        predictions,
-        zero_division=0
+    val_f1 = f1_score(
+        y_val, val_predictions, zero_division=0
     )
 
     try:
-
-        roc_auc = roc_auc_score(
-            y_test,
-            probabilities
-        )
-
+        val_roc_auc = roc_auc_score(y_val, val_probabilities)
     except ValueError:
+        val_roc_auc = np.nan
 
-        roc_auc = np.nan
+    print(f"\nValidation accuracy : {val_accuracy:.4f}")
+    print(f"Validation precision: {val_precision:.4f}")
+    print(f"Validation recall   : {val_recall:.4f}")
+    print(f"Validation F1       : {val_f1:.4f}")
+    print(f"Validation ROC-AUC  : {val_roc_auc:.4f}")
 
-    # --------------------------------------------------------
-    # PRINT METRICS
-    # --------------------------------------------------------
-
-    print(
-        f"\nAccuracy : {accuracy:.4f}"
-    )
-
-    print(
-        f"Precision: {precision:.4f}"
-    )
-
-    print(
-        f"Recall   : {recall:.4f}"
-    )
-
-    print(
-        f"F1 Score : {f1:.4f}"
-    )
-
-    if not np.isnan(roc_auc):
-
-        print(
-            f"ROC-AUC  : {roc_auc:.4f}"
-        )
-
-    print("\nClassification Report:")
-
+    print("\nValidation classification report:")
     print(
         classification_report(
-            y_test,
-            predictions,
+            y_val,
+            val_predictions,
             zero_division=0
         )
     )
 
-    # --------------------------------------------------------
-    # STORE RESULTS
-    # --------------------------------------------------------
-
+    # Store validation metrics for model comparison
     results.append({
-
         "model": model_name,
-
-        "accuracy": accuracy,
-
-        "precision": precision,
-
-        "recall": recall,
-
-        "f1": f1,
-
-        "roc_auc": roc_auc
+        "accuracy": val_accuracy,
+        "precision": val_precision,
+        "recall": val_recall,
+        "f1": val_f1,
+        "roc_auc": val_roc_auc
     })
 
-    trained_models[
-        model_name
-    ] = model
+    trained_models[model_name] = model
+
 
 # ============================================================
-# MODEL COMPARISON
+# MODEL COMPARISON USING VALIDATION DATA ONLY
 # ============================================================
 
-results_df = pd.DataFrame(
-    results
-)
+results_df = pd.DataFrame(results)
 
 print("\n" + "=" * 60)
-print("MODEL COMPARISON")
+print("VALIDATION MODEL COMPARISON")
 print("=" * 60)
 
-print(
-    results_df.to_string(
-        index=False
-    )
-)
+print(results_df.to_string(index=False))
+
 
 # ============================================================
 # SELECT BEST MODEL
 # ============================================================
-#
-# ROC-AUC is used as the primary selection metric because
-# this is a probability-based failure prediction system.
-#
-# F1 is retained as an additional metric.
+# Select by validation F1; use validation ROC-AUC as a
+# secondary criterion. The final test set is not used here.
 # ============================================================
 
-valid_results = results_df.dropna(
-    subset=["roc_auc"]
+valid_results = results_df.copy()
+
+valid_results["_roc_auc_sort"] = (
+    valid_results["roc_auc"].fillna(-1)
 )
 
-if len(valid_results) > 0:
+valid_results = valid_results.sort_values(
+    by=["f1", "_roc_auc_sort"],
+    ascending=[False, False]
+)
 
-    best_model_name = (
-        valid_results
-        .sort_values(
-            "roc_auc",
-            ascending=False
-        )
-        .iloc[0]["model"]
-    )
+best_model_name = valid_results.iloc[0]["model"]
+best_model = trained_models[best_model_name]
 
-else:
+print(f"\nSelected model: {best_model_name}")
+print("Selection basis: validation F1, then validation ROC-AUC")
 
-    best_model_name = (
-        results_df
-        .sort_values(
-            "f1",
-            ascending=False
-        )
-        .iloc[0]["model"]
-    )
 
-best_model = trained_models[
-    best_model_name
-]
+# ============================================================
+# FINAL EVALUATION ON UNSEEN TEST DATA
+# ============================================================
 
+test_predictions = best_model.predict(X_test)
+test_probabilities = best_model.predict_proba(X_test)[:, 1]
+
+test_accuracy = accuracy_score(y_test, test_predictions)
+test_precision = precision_score(
+    y_test, test_predictions, zero_division=0
+)
+test_recall = recall_score(
+    y_test, test_predictions, zero_division=0
+)
+test_f1 = f1_score(
+    y_test, test_predictions, zero_division=0
+)
+
+try:
+    test_roc_auc = roc_auc_score(y_test, test_probabilities)
+except ValueError:
+    test_roc_auc = np.nan
+
+print("\n" + "=" * 60)
+print("FINAL HELD-OUT TEST RESULTS")
+print("=" * 60)
+
+print(f"Selected model : {best_model_name}")
+print(f"Test accuracy  : {test_accuracy:.4f}")
+print(f"Test precision : {test_precision:.4f}")
+print(f"Test recall    : {test_recall:.4f}")
+print(f"Test F1        : {test_f1:.4f}")
+
+if not np.isnan(test_roc_auc):
+    print(f"Test ROC-AUC   : {test_roc_auc:.4f}")
+
+print("\nFinal test classification report:")
 print(
-    f"\nBest model based on ROC-AUC: "
-    f"{best_model_name}"
+    classification_report(
+        y_test,
+        test_predictions,
+        zero_division=0
+    )
 )
 
-# ============================================================
-# FEATURE IMPORTANCE
+# Preserve the existing comparison columns for dashboard compatibility.
+# Add the selected model's held-out test metrics separately.
+for column, value in {
+    "test_accuracy": test_accuracy,
+    "test_precision": test_precision,
+    "test_recall": test_recall,
+    "test_f1": test_f1,
+    "test_roc_auc": test_roc_auc
+}.items():
+    results_df[column] = np.nan
+
+    results_df.loc[
+        results_df["model"] == best_model_name,
+        column
+    ] = value
+
+# Keep the existing variable expected by the save section.
+results_df = results_df.drop(
+    columns=["_roc_auc_sort"],
+    errors="ignore"
+)
+
+print("\n" + "=" * 60)
+print("MODEL COMPARISON WITH FINAL TEST RESULTS")
+print("=" * 60)
+print(results_df.to_string(index=False))
+
+   # FEATURE IMPORTANCE
 # ============================================================
 
 print("\n" + "=" * 60)
